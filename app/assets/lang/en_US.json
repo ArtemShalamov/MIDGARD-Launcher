@@ -1,48 +1,48 @@
 {
     "html": {
-        "avatarOverlay": "Edit"
+        "avatarOverlay": "Изм."
     },
     "js": {
         "login": {
             "error": {
-                "invalidValue": "* Invalid Value",
-                "requiredValue": "* Required",
+                "invalidValue": "* Неверное значение",
+                "requiredValue": "* Обязательно",
                 "userMigrated": {
-                    "title": "Error During Login:<br>Invalid Credentials",
-                    "desc": "You've attempted to login with a migrated account. Try again using the account email as the username."
+                    "title": "Ошибка при входе в систему: <br> Неверные учетные данные                    ",
+                    "desc": "Вы попытались войти в систему с перенесенной учетной записью. Повторите попытку, используя адрес электронной почты аккаунта в качестве имени пользователя.                    "
                 },
                 "invalidCredentials": {
-                    "title": "Error During Login:<br>Invalid Credentials",
-                    "desc": "The email or password you've entered is incorrect. Please try again."
+                    "title": "Ошибка при входе в систему: <br> Неверные учетные данные",
+                    "desc": "Вы ввели неверный адрес электронной почты или пароль. Пожалуйста, попробуйте еще раз."
                 },
                 "rateLimit": {
-                    "title": "Error During Login:<br>Too Many Attempts",
-                    "desc": "There have been too many login attempts with this account recently. Please try again later."
+                    "title": "Ошибка при входе в систему: <br> слишком много попыток",
+                    "desc": "В последнее время было слишком много попыток входа в систему с этой учетной записью. Пожалуйста, повторите попытку позже."
                 },
                 "noInternet": {
-                    "title": "Error During Login:<br>No Internet Connection",
-                    "desc": "You must be connected to the internet in order to login. Please connect and try again."
+                    "title": "Ошибка при входе в систему: <br> Нет подключения к Интернету",
+                    "desc": "Вы должны быть подключены к Интернету, чтобы войти в систему. Пожалуйста, подключитесь и попробуйте еще раз."
                 },
                 "authDown": {
-                    "title": "Error During Login:<br>Authentication Server Offline",
-                    "desc": "Mojang's authentication server is currently offline or unreachable. Please wait a bit and try again. You can check the status of the server on <a href=\"https://help.mojang.com/\">Mojang's help portal</a>."
+                    "title": "Ошибка при входе в систему: <br> Сервер аутентификации отключен",
+                    "desc": "Сервер аутентификации Mojang в настоящее время отключен или недоступен. Подождите немного и попробуйте еще раз. Вы можете проверить статус сервера на <a href=\"https://help.mojang.com/\"> справочном портале Mojang</a>."
                 },
                 "notPaid": {
-                    "title": "Error During Login:<br>Game Not Purchased",
-                    "desc": "The account you are trying to login with has not purchased a copy of Minecraft.<br>You may purchase a copy on <a href=\"https://minecraft.net/\">Minecraft.net</a>"
+                    "title": "Ошибка при входе в систему: <br> Игра не куплена",
+                    "desc": "Для учетной записи, с которой вы пытаетесь войти, не была приобретена копия Minecraft. <br> Вы можете приобрести копию на <a href=\"https://minecraft.net/\"> Minecraft.net </a>"
                 },
                 "unknown": {
-                    "title": "Error During Login:<br>Unknown Error"
+                    "title": "Ошибка при входе в систему: <br> Неизвестная ошибка"
                 }
             },
-            "login": "LOGIN",
-            "loggingIn": "LOGGING IN",
-            "success": "SUCCESS",
-            "tryAgain": "Try Again"
+            "login": "ВХОД",
+            "loggingIn": "ВХОД В СИСТЕМУ",
+            "success": "УСПЕШНО",
+            "tryAgain": "Повторить"
         },
         "landing": {
             "launch": {
-                "pleaseWait": "Please wait.."
+                "pleaseWait": "Пожалуйста подождите.."
             }
         }
     }
